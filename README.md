@@ -1,4 +1,3 @@
-````md
 # 🚀 Sahil.dev —  Full Stack Developer Portfolio
 
 A developer portfolio built with modern web technologies, cinematic animations, interactive UI, GitHub analytics, dynamic tech blogs, terminal-inspired sections, and a fully centralized scalable architecture.
@@ -38,7 +37,7 @@ Example commands:
 > skills
 > github
 > contact
-````
+
 
 ---
 
