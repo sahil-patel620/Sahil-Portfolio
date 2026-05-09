@@ -1,0 +1,39 @@
+<svg
+  width="128"
+  height="128"
+  viewBox="0 0 128 128"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Outer Glow Border -->
+  <rect
+    x="12"
+    y="12"
+    width="104"
+    height="104"
+    rx="18"
+    fill="#0A0A0A"
+    stroke="#22C55E"
+    stroke-width="8"
+  />
+
+  <!-- > Symbol -->
+  <path
+    d="M38 42L56 60L38 78"
+    stroke="#22C55E"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Underscore -->
+  <line
+    x1="62"
+    y1="76"
+    x2="86"
+    y2="76"
+    stroke="#22C55E"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+</svg>
