@@ -126,7 +126,7 @@ export const experienceData = [
 export const achievementsData = [
   {
     icon: <Code className="w-8 h-8" />,
-    value: 55,
+    value: 125,
     suffix: '+',
     label: 'Problems Solved',
     description: 'LeetCode & HackerRank'
@@ -140,7 +140,7 @@ export const achievementsData = [
   },
   {
     icon: <GitMerge className="w-8 h-8" />,
-    value: 500,
+    value: 350,
     suffix: '+',
     label: 'GitHub Contributions',
     description: 'In the last year'
@@ -161,7 +161,7 @@ export const certificationsData = [
     date: 'May 2026',
     credentialId: 'CERT-1778311859489-11993222',
     link: javaCertificate,
-    tech: ['Java', 'OOP', 'JVM']
+    tech: [ 'Core Java', 'OOP', 'Collections Framework', 'Exception Handling', 'Multithreading','JVM']
   },
   {
     title: 'Spring Boot Certification',
