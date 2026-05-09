@@ -1,8 +1,8 @@
 import { Code, GitMerge, Rocket, Trophy } from 'lucide-react';
 import resume from "../assets/resume.pdf";
-import javaCertificate from "../assets/certificates/java(KG).pdf";
+import javaCertificate from "../assets/certificates/java.pdf";
 import springBootCertificate from "../assets/certificates/springbootCertificate.png";
-import ReactCertificate from "../assets/certificates/react(HR).pdf";
+import ReactCertificate from "../assets/certificates/react.pdf";
 import CloudComputingCertificate from "../assets/certificates/cloudComputing.pdf";
 import DSAJavaCertificate from "../assets/certificates/dsa.pdf";
 
