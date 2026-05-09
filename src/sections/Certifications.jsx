@@ -47,8 +47,17 @@ export default function Certifications() {
               <div className="relative z-10 flex flex-col h-full">
                 {/* Header: Icon & Date */}
                 <div className="flex justify-between items-start mb-6">
-                  <div className="p-3 bg-primary/10 rounded-xl text-primary group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
-                    <ShieldCheck className="w-8 h-8" />
+                  <div className="p-3 bg-primary/10 rounded-xl text-primary group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300 flex items-center justify-center w-14 h-14">
+                    {cert.logo ? (
+                      <img
+                        src={cert.logo}
+                        alt={cert.title + ' logo'}
+                        className="w-8 h-8 object-contain"
+                        style={cert.logoStyle || {}}
+                      />
+                    ) : (
+                      <ShieldCheck className="w-8 h-8" />
+                    )}
                   </div>
                   <div className="text-right">
                     <span className="text-sm font-semibold text-foreground/60">{cert.date}</span>

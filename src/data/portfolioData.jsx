@@ -161,6 +161,8 @@ export const certificationsData = [
     date: 'May 2026',
     credentialId: 'CERT-1778311859489-11993222',
     link: javaCertificate,
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+    logoStyle: { filter: 'drop-shadow(0 0 4px rgba(248,152,32,0.4))' },
     tech: [ 'Core Java', 'OOP', 'Collections Framework', 'Exception Handling', 'Multithreading','JVM']
   },
   {
@@ -169,6 +171,8 @@ export const certificationsData = [
     date: 'May 2026',
     credentialId: '50K9R3ZG',
     link: springBootCertificate,
+    logo: 'https://cdn.simpleicons.org/springboot/6DB33F',
+    logoStyle: { filter: 'drop-shadow(0 0 4px rgba(109,179,63,0.4))' },
     tech: ['Spring Boot','Spring MVC','Spring Data JPA','Restful API','Spring Security']
   },
   {
@@ -177,6 +181,8 @@ export const certificationsData = [
     date: 'Jun 2025',
     credentialId: '7E6F9C62BECВ',
     link: ReactCertificate,
+    logo: 'https://cdn.simpleicons.org/react/61DAFB',
+    logoStyle: { filter: 'drop-shadow(0 0 4px rgba(97,218,251,0.4))' },
     tech: ['React','Props','State','Redux']
   },
   {
@@ -185,27 +191,31 @@ export const certificationsData = [
     date: 'Apr 2025',
     credentialId: 'NPTEL25CS11S1052000457',
     link: CloudComputingCertificate,
+    logo: 'https://cdn.simpleicons.org/icloud/3693F3',
+    logoStyle: { filter: 'drop-shadow(0 0 4px rgba(54,147,243,0.4))' },
     tech: ['Cloud Computing', 'Virtualization', 'Cloud Service Models (IaaS, PaaS, SaaS)', 'AWS']
   },
   {
-  title: 'Data Structure and Algorithms Using Java',
-  organization: 'IIT Kharagpur',
-  date: 'Oct 2023',
-  credentialId: 'NPTEL23CS85S742000579',
-  link: DSAJavaCertificate,
-  tech: [
-    'Java',
-    'Data Structures',
-    'Algorithms',
-    'Arrays',
-    'Linked List',
-    'Stack',
-    'Queue',
-    'Trees',
-    'Searching',
-    'Sorting'
-  ]
-}
+    title: 'Data Structure and Algorithms Using Java',
+    organization: 'IIT Kharagpur',
+    date: 'Oct 2023',
+    credentialId: 'NPTEL23CS85S742000579',
+    link: DSAJavaCertificate,
+    logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+    logoStyle: { filter: 'drop-shadow(0 0 4px rgba(248,152,32,0.4))' },
+    tech: [
+      'Java',
+      'Data Structures',
+      'Algorithms',
+      'Arrays',
+      'Linked List',
+      'Stack',
+      'Queue',
+      'Trees',
+      'Searching',
+      'Sorting'
+    ]
+  }
 ];
 
 export const blogData = [
