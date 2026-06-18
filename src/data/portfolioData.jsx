@@ -15,7 +15,7 @@ import DSAJavaCertificate from "../assets/certificates/dsa.pdf";
  */
 
 export const personalInfo = {
-  name: 'Sahil Patel',
+  name: 'S=-0976efghj Patel',
   role: 'Full Stack Developer',
   email: 'sahilpatel.techie@gmail.com',
   phone: '+91 6200239192',
